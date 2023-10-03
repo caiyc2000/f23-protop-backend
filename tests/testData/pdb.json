@@ -1,0 +1,2890 @@
+{
+    "data": {
+        "entry": {
+            "rcsb_id": "4HHB",
+            "entry": {
+                "id": "4HHB"
+            },
+            "rcsb_entry_container_identifiers": {
+                "entity_ids": [
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5"
+                ],
+                "pubmed_id": 6726807,
+                "emdb_ids": null,
+                "assembly_ids": [
+                    "1"
+                ]
+            },
+            "rcsb_associated_holdings": {
+                "rcsb_repository_holdings_current_entry_container_identifiers": {
+                    "assembly_ids": [
+                        "1"
+                    ]
+                },
+                "rcsb_repository_holdings_current": {
+                    "repository_content_types": [
+                        "FASTA sequence",
+                        "entry mmCIF",
+                        "entry PDBML",
+                        "entry PDB",
+                        "assembly mmCIF",
+                        "assembly PDB",
+                        "validation data mmCIF",
+                        "validation slider image",
+                        "validation report"
+                    ]
+                }
+            },
+            "rcsb_comp_model_provenance": null,
+            "pdbx_database_status": {
+                "pdb_format_compatible": "Y"
+            },
+            "struct": {
+                "title": "THE CRYSTAL STRUCTURE OF HUMAN DEOXYHAEMOGLOBIN AT 1.74 ANGSTROMS RESOLUTION"
+            },
+            "rcsb_ma_qa_metric_global": null,
+            "rcsb_primary_citation": {
+                "id": "primary",
+                "pdbx_database_id_DOI": "10.1016/0022-2836(84)90472-8"
+            },
+            "pubmed": {
+                "rcsb_pubmed_container_identifiers": {
+                    "pubmed_id": 6726807
+                },
+                "rcsb_pubmed_central_id": null,
+                "rcsb_pubmed_doi": "10.1016/0022-2836(84)90472-8",
+                "rcsb_pubmed_abstract_text": "The structure of human deoxyhaemoglobin was refined at 1.74 A resolution using data collected on film at room temperature from a synchrotron X-ray source. The crystallographic R-factor is 16.0%. The estimated error in atomic positions is 0.1 A overall, 0.14 A for main-chain atoms of internal segments, and 0.05 A for the iron atoms. The effects of intermolecular contacts on the structure were investigated; such contacts cause only highly localized distortions, as judged from the degree of molecular asymmetry that they induce. The geometry of the iron-nitrogen complex closely resembles that of the deoxymyoglobin structure of Takano (1977) and of the 5-co-ordinated model compounds of Hoard (1975) and Jameson et al. (1980). The distance of the iron from the mean plane of N(porphyrin) is 0.40(5) A and 0.36(5) A, respectively, at the alpha and beta haems, in contrast to the corresponding distance of +0.12(8) A and -0.11(8) A in oxyhaemoglobin ( Shaanan , 1983); the Fe-N epsilon (F8) bond length is 2.12(4) A and the Fe-N(porphyrin) bond length is 2.06(2) A; the last is also in good agreement with extended X-ray fluorescence spectroscopy measurements on deoxyhaemoglobin ( Eisenberger et al., 1978; Perutz et al., 1982). The haems are domed toward the proximal side; the separation between the mean planes of N(porphyrin) and C(porphyrin) being 0.16(6) A and 0.10(6) A, respectively at the alpha and beta haems. At the alpha haems, the normals to the mean pyrrole planes are tilted uniformly toward the haem centre, by about three degrees relative to the haem normal, and there is a folding of about four degrees of the haem about an axis running between the methene carbons that are between the pyrrole rings bearing like-type side-chains. At the beta haems, there is no such folding, and only pyrroles II and IV (those eclipsed by His F8) are appreciably tilted, by about eight degrees. The independence of these parameters from restraints imposed on the model was verified by unrestrained refinement of the entire molecule starting from a structure with modified haem geometry.",
+                "rcsb_pubmed_affiliation_info": [
+                    "Medical Proteomics Research Center, Korea Research Institute of Bioscience and Biotechnology, 111 Gwahangno, Yuseong-gu, Daejeon 305-806, Republic of Korea."
+                ]
+            },
+            "pdbx_deposit_group": null,
+            "rcsb_external_references": null,
+            "pdbx_database_PDB_obs_spr": [
+                {
+                    "id": "SPRSDE",
+                    "replace_pdb_id": "1HHB"
+                }
+            ],
+            "struct_keywords": {
+                "pdbx_keywords": "OXYGEN TRANSPORT",
+                "text": "OXYGEN TRANSPORT"
+            },
+            "exptl": [
+                {
+                    "method": "X-RAY DIFFRACTION"
+                }
+            ],
+            "cell": {
+                "length_a": 63.15,
+                "length_b": 83.59,
+                "length_c": 53.8,
+                "angle_alpha": 90.0,
+                "angle_beta": 99.34,
+                "angle_gamma": 90.0
+            },
+            "symmetry": {
+                "space_group_name_H_M": "P 1 21 1"
+            },
+            "software": null,
+            "rcsb_accession_info": {
+                "deposit_date": "1984-03-07T00:00:00Z",
+                "initial_release_date": "1984-07-17T00:00:00Z",
+                "major_revision": 4,
+                "minor_revision": 1
+            },
+            "pdbx_audit_revision_history": [
+                {
+                    "ordinal": 1,
+                    "data_content_type": "Structure model",
+                    "major_revision": 1,
+                    "minor_revision": 0,
+                    "revision_date": "1984-07-17T00:00:00Z"
+                },
+                {
+                    "ordinal": 2,
+                    "data_content_type": "Structure model",
+                    "major_revision": 1,
+                    "minor_revision": 1,
+                    "revision_date": "2008-03-03T00:00:00Z"
+                },
+                {
+                    "ordinal": 3,
+                    "data_content_type": "Structure model",
+                    "major_revision": 1,
+                    "minor_revision": 2,
+                    "revision_date": "2011-07-13T00:00:00Z"
+                },
+                {
+                    "ordinal": 4,
+                    "data_content_type": "Structure model",
+                    "major_revision": 2,
+                    "minor_revision": 0,
+                    "revision_date": "2020-06-17T00:00:00Z"
+                },
+                {
+                    "ordinal": 5,
+                    "data_content_type": "Structure model",
+                    "major_revision": 3,
+                    "minor_revision": 0,
+                    "revision_date": "2021-03-31T00:00:00Z"
+                },
+                {
+                    "ordinal": 6,
+                    "data_content_type": "Structure model",
+                    "major_revision": 4,
+                    "minor_revision": 0,
+                    "revision_date": "2023-02-08T00:00:00Z"
+                },
+                {
+                    "ordinal": 7,
+                    "data_content_type": "Structure model",
+                    "major_revision": 4,
+                    "minor_revision": 1,
+                    "revision_date": "2023-03-15T00:00:00Z"
+                }
+            ],
+            "pdbx_audit_revision_details": [
+                {
+                    "ordinal": 1,
+                    "revision_ordinal": 1,
+                    "data_content_type": "Structure model",
+                    "type": "Initial release",
+                    "description": null
+                },
+                {
+                    "ordinal": 2,
+                    "revision_ordinal": 6,
+                    "data_content_type": "Structure model",
+                    "type": "Remediation",
+                    "description": null
+                }
+            ],
+            "pdbx_audit_revision_group": [
+                {
+                    "ordinal": 1,
+                    "revision_ordinal": 2,
+                    "data_content_type": "Structure model",
+                    "group": "Version format compliance"
+                },
+                {
+                    "ordinal": 2,
+                    "revision_ordinal": 3,
+                    "data_content_type": "Structure model",
+                    "group": "Advisory"
+                },
+                {
+                    "ordinal": 3,
+                    "revision_ordinal": 3,
+                    "data_content_type": "Structure model",
+                    "group": "Version format compliance"
+                },
+                {
+                    "ordinal": 4,
+                    "revision_ordinal": 4,
+                    "data_content_type": "Structure model",
+                    "group": "Advisory"
+                },
+                {
+                    "ordinal": 5,
+                    "revision_ordinal": 4,
+                    "data_content_type": "Structure model",
+                    "group": "Atomic model"
+                },
+                {
+                    "ordinal": 6,
+                    "revision_ordinal": 4,
+                    "data_content_type": "Structure model",
+                    "group": "Data collection"
+                },
+                {
+                    "ordinal": 7,
+                    "revision_ordinal": 4,
+                    "data_content_type": "Structure model",
+                    "group": "Database references"
+                },
+                {
+                    "ordinal": 8,
+                    "revision_ordinal": 4,
+                    "data_content_type": "Structure model",
+                    "group": "Other"
+                },
+                {
+                    "ordinal": 9,
+                    "revision_ordinal": 4,
+                    "data_content_type": "Structure model",
+                    "group": "Source and taxonomy"
+                },
+                {
+                    "ordinal": 10,
+                    "revision_ordinal": 4,
+                    "data_content_type": "Structure model",
+                    "group": "Structure summary"
+                },
+                {
+                    "ordinal": 11,
+                    "revision_ordinal": 5,
+                    "data_content_type": "Structure model",
+                    "group": "Atomic model"
+                },
+                {
+                    "ordinal": 12,
+                    "revision_ordinal": 5,
+                    "data_content_type": "Structure model",
+                    "group": "Data collection"
+                },
+                {
+                    "ordinal": 13,
+                    "revision_ordinal": 5,
+                    "data_content_type": "Structure model",
+                    "group": "Derived calculations"
+                },
+                {
+                    "ordinal": 14,
+                    "revision_ordinal": 6,
+                    "data_content_type": "Structure model",
+                    "group": "Advisory"
+                },
+                {
+                    "ordinal": 15,
+                    "revision_ordinal": 6,
+                    "data_content_type": "Structure model",
+                    "group": "Atomic model"
+                },
+                {
+                    "ordinal": 16,
+                    "revision_ordinal": 6,
+                    "data_content_type": "Structure model",
+                    "group": "Data collection"
+                },
+                {
+                    "ordinal": 17,
+                    "revision_ordinal": 6,
+                    "data_content_type": "Structure model",
+                    "group": "Database references"
+                },
+                {
+                    "ordinal": 18,
+                    "revision_ordinal": 6,
+                    "data_content_type": "Structure model",
+                    "group": "Derived calculations"
+                },
+                {
+                    "ordinal": 19,
+                    "revision_ordinal": 6,
+                    "data_content_type": "Structure model",
+                    "group": "Other"
+                },
+                {
+                    "ordinal": 20,
+                    "revision_ordinal": 6,
+                    "data_content_type": "Structure model",
+                    "group": "Refinement description"
+                },
+                {
+                    "ordinal": 21,
+                    "revision_ordinal": 7,
+                    "data_content_type": "Structure model",
+                    "group": "Advisory"
+                }
+            ],
+            "pdbx_database_related": [
+                {
+                    "content_type": "unspecified",
+                    "db_id": "2HHB",
+                    "details": "REFINED BY THE METHOD OF JACK AND LEVITT.  THIS\n        ENTRY PRESENTS THE BEST ESTIMATE OF THE\n        COORDINATES.",
+                    "db_name": "PDB"
+                },
+                {
+                    "content_type": "unspecified",
+                    "db_id": "3HHB",
+                    "details": "SYMMETRY AVERAGED ABOUT THE (NON-CRYSTALLOGRAPHIC)\n        MOLECULAR AXIS AND THEN RE-REGULARIZED BY THE\n        ENERGY REFINEMENT METHOD OF LEVITT.  THIS ENTRY\n        PRESENTS COORDINATES THAT ARE ADEQUATE FOR MOST\n        PURPOSES, SUCH AS COMPARISON WITH OTHER STRUCTURES.",
+                    "db_name": "PDB"
+                },
+                {
+                    "content_type": "unspecified",
+                    "db_id": "1GLI",
+                    "details": null,
+                    "db_name": "PDB"
+                }
+            ],
+            "audit_author": [
+                {
+                    "name": "Fermi, G."
+                },
+                {
+                    "name": "Perutz, M.F."
+                }
+            ],
+            "pdbx_audit_support": null,
+            "refine": [
+                {
+                    "pdbx_refine_id": "X-RAY DIFFRACTION",
+                    "ls_d_res_high": 1.74,
+                    "ls_R_factor_R_work": 0.135,
+                    "ls_R_factor_R_free": null,
+                    "ls_R_factor_obs": null
+                }
+            ],
+            "pdbx_nmr_ensemble": null,
+            "em_experiment": null,
+            "em_3d_reconstruction": null,
+            "em_software": null,
+            "citation": [
+                {
+                    "id": "primary",
+                    "title": "The crystal structure of human deoxyhaemoglobin at 1.74 A resolution",
+                    "rcsb_journal_abbrev": "J Mol Biol",
+                    "rcsb_authors": [
+                        "Fermi, G.",
+                        "Perutz, M.F.",
+                        "Shaanan, B.",
+                        "Fourme, R."
+                    ],
+                    "year": 1984,
+                    "journal_volume": "175",
+                    "page_first": "159",
+                    "page_last": "174",
+                    "pdbx_database_id_PubMed": 6726807,
+                    "pdbx_database_id_DOI": "10.1016/0022-2836(84)90472-8"
+                },
+                {
+                    "id": "1",
+                    "title": "Stereochemistry of Iron in Deoxyhaemoglobin",
+                    "rcsb_journal_abbrev": "Nature",
+                    "rcsb_authors": [
+                        "Perutz, M.F.",
+                        "Hasnain, S.S.",
+                        "Duke, P.J.",
+                        "Sessler, J.L.",
+                        "Hahn, J.E."
+                    ],
+                    "year": 1982,
+                    "journal_volume": "295",
+                    "page_first": "535",
+                    "page_last": null,
+                    "pdbx_database_id_PubMed": null,
+                    "pdbx_database_id_DOI": null
+                },
+                {
+                    "id": "3",
+                    "title": "Regulation of Oxygen Affinity of Hemoglobin. Influence of Structure of the Globin on the Heme Iron",
+                    "rcsb_journal_abbrev": "Annu Rev Biochem",
+                    "rcsb_authors": [
+                        "Perutz, M.F."
+                    ],
+                    "year": 1979,
+                    "journal_volume": "48",
+                    "page_first": "327",
+                    "page_last": null,
+                    "pdbx_database_id_PubMed": null,
+                    "pdbx_database_id_DOI": null
+                },
+                {
+                    "id": "4",
+                    "title": "Three-Dimensional Fourier Synthesis of Human Deoxyhemoglobin at 2.5 Angstroms Resolution, I.X-Ray Analysis",
+                    "rcsb_journal_abbrev": "J Mol Biol",
+                    "rcsb_authors": [
+                        "Teneyck, L.F.",
+                        "Arnone, A."
+                    ],
+                    "year": 1976,
+                    "journal_volume": "100",
+                    "page_first": "3",
+                    "page_last": null,
+                    "pdbx_database_id_PubMed": null,
+                    "pdbx_database_id_DOI": null
+                },
+                {
+                    "id": "5",
+                    "title": "Three-Dimensional Fourier Synthesis of Human Deoxyhaemoglobin at 2.5 Angstroms Resolution, Refinement of the Atomic Model",
+                    "rcsb_journal_abbrev": "J Mol Biol",
+                    "rcsb_authors": [
+                        "Fermi, G."
+                    ],
+                    "year": 1975,
+                    "journal_volume": "97",
+                    "page_first": "237",
+                    "page_last": null,
+                    "pdbx_database_id_PubMed": null,
+                    "pdbx_database_id_DOI": null
+                },
+                {
+                    "id": "6",
+                    "title": "Three-Dimensional Fourier Synthesis of Human Deoxyhaemoglobin at 3.5 Angstroms Resolution",
+                    "rcsb_journal_abbrev": "Nature",
+                    "rcsb_authors": [
+                        "Muirhead, H.",
+                        "Greer, J."
+                    ],
+                    "year": 1970,
+                    "journal_volume": "228",
+                    "page_first": "516",
+                    "page_last": null,
+                    "pdbx_database_id_PubMed": null,
+                    "pdbx_database_id_DOI": null
+                },
+                {
+                    "id": "2",
+                    "title": null,
+                    "rcsb_journal_abbrev": "Haemoglobin And Myoglobin Atlas Of Molecular Structures In Biology",
+                    "rcsb_authors": [
+                        "Fermi, G.",
+                        "Perutz, M.F."
+                    ],
+                    "year": 1981,
+                    "journal_volume": "2",
+                    "page_first": null,
+                    "page_last": null,
+                    "pdbx_database_id_PubMed": null,
+                    "pdbx_database_id_DOI": null
+                },
+                {
+                    "id": "7",
+                    "title": null,
+                    "rcsb_journal_abbrev": "Atlas Of Protein Sequence And Structure (data Section)",
+                    "rcsb_authors": null,
+                    "year": 1972,
+                    "journal_volume": "5",
+                    "page_first": "56",
+                    "page_last": null,
+                    "pdbx_database_id_PubMed": null,
+                    "pdbx_database_id_DOI": null
+                },
+                {
+                    "id": "8",
+                    "title": null,
+                    "rcsb_journal_abbrev": "Atlas Of Protein Sequence And Structure (data Section)",
+                    "rcsb_authors": null,
+                    "year": 1972,
+                    "journal_volume": "5",
+                    "page_first": "64",
+                    "page_last": null,
+                    "pdbx_database_id_PubMed": null,
+                    "pdbx_database_id_DOI": null
+                }
+            ],
+            "rcsb_entry_info": {
+                "molecular_weight": 64.74,
+                "deposited_atom_count": 4779,
+                "deposited_model_count": 1,
+                "deposited_polymer_monomer_count": 574,
+                "deposited_modeled_polymer_monomer_count": 574,
+                "deposited_unmodeled_polymer_monomer_count": 0,
+                "polymer_entity_count_protein": 2,
+                "polymer_entity_count_nucleic_acid": 0,
+                "polymer_entity_count_nucleic_acid_hybrid": 0
+            },
+            "rcsb_entry_group_membership": null,
+            "rcsb_binding_affinity": null,
+            "branched_entities": null,
+            "polymer_entities": [
+                {
+                    "polymer_entity_instances": [
+                        {
+                            "rcsb_polymer_entity_instance_container_identifiers": {
+                                "auth_asym_id": "A",
+                                "asym_id": "A",
+                                "entry_id": "4HHB",
+                                "entity_id": "1"
+                            }
+                        },
+                        {
+                            "rcsb_polymer_entity_instance_container_identifiers": {
+                                "auth_asym_id": "C",
+                                "asym_id": "C",
+                                "entry_id": "4HHB",
+                                "entity_id": "1"
+                            }
+                        }
+                    ],
+                    "rcsb_polymer_entity_container_identifiers": {
+                        "entry_id": "4HHB",
+                        "entity_id": "1",
+                        "asym_ids": [
+                            "A",
+                            "C"
+                        ],
+                        "auth_asym_ids": [
+                            "A",
+                            "C"
+                        ],
+                        "uniprot_ids": [
+                            "P69905"
+                        ],
+                        "reference_sequence_identifiers": [
+                            {
+                                "database_accession": "P69905"
+                            }
+                        ]
+                    },
+                    "uniprots": [
+                        {
+                            "rcsb_id": "P69905",
+                            "rcsb_uniprot_protein": {
+                                "source_organism": {
+                                    "scientific_name": "Homo sapiens"
+                                }
+                            },
+                            "rcsb_uniprot_external_reference": [
+                                {
+                                    "reference_name": "PHAROS",
+                                    "reference_id": "P69905"
+                                }
+                            ]
+                        }
+                    ],
+                    "rcsb_polymer_entity": {
+                        "pdbx_description": "Hemoglobin subunit alpha",
+                        "rcsb_ec_lineage": null,
+                        "pdbx_ec": null,
+                        "rcsb_enzyme_class_combined": null
+                    },
+                    "rcsb_polymer_entity_annotation": [
+                        {
+                            "type": "Pfam",
+                            "annotation_lineage": null
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "cellular_component",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "extracellular region",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "extracellular space",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "blood microparticle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular anatomical entity",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "cellular_component",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "intracellular anatomical structure",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cytoplasm",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cytosol",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular anatomical entity",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "cellular_component",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "intracellular anatomical structure",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cytoplasm",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cytosol",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "ribosome",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "small ribosomal subunit",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cytosolic ribosome",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cytosolic small ribosomal subunit",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "protein-containing complex",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "organelle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "non-membrane-bounded organelle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "intracellular organelle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "intracellular non-membrane-bounded organelle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "ribosomal subunit",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular anatomical entity",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "ribonucleoprotein complex",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "cellular_component",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "intracellular anatomical structure",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cytoplasm",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "endocytic vesicle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cytoplasmic vesicle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "membrane-enclosed lumen",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "vesicle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "organelle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "membrane-bounded organelle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "intracellular organelle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "intracellular membrane-bounded organelle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "organelle lumen",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "intracellular organelle lumen",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "endocytic vesicle lumen",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "intracellular vesicle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular anatomical entity",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "cellular_component",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "extracellular region",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "extracellular space",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "vesicle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "organelle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "membrane-bounded organelle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "extracellular organelle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "extracellular membrane-bounded organelle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "extracellular exosome",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular anatomical entity",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "extracellular vesicle",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "cellular_component",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "extracellular region",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular anatomical entity",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "cellular_component",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "extracellular region",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "extracellular space",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular anatomical entity",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "cellular_component",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "haptoglobin-hemoglobin complex",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "protein-containing complex",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "cellular_component",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "intracellular anatomical structure",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cytoplasm",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cytosol",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "hemoglobin complex",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "protein-containing complex",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular anatomical entity",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "cellular_component",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "membrane",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular anatomical entity",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "G protein-coupled receptor binding",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "molecular_function",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "signaling receptor binding",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "binding",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "protein binding",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "molecular_function",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "binding",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "heme binding",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "tetrapyrrole binding",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "organic cyclic compound binding",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "heterocyclic compound binding",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "molecular_function",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "binding",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "iron ion binding",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "ion binding",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cation binding",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "metal ion binding",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "transition metal ion binding",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "molecular_function",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "binding",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "small molecule binding",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "organic acid binding",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "molecular_function",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "binding",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "oxygen binding",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "small molecule binding",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "molecular_function",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "oxygen carrier activity",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "molecular carrier activity",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "transport",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "biological_process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "gas transport",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "carbon dioxide transport",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "one-carbon compound transport",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "localization",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "establishment of localization",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "organic substance transport",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "biological_process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "response to toxic substance",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "response to chemical",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "response to stimulus",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular response to stimulus",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular response to chemical stimulus",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular response to toxic substance",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "detoxification",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular oxidant detoxification",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular detoxification",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "biological_process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "metabolic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "catabolic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "hydrogen peroxide metabolic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "hydrogen peroxide catabolic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular metabolic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular catabolic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "organic substance metabolic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "reactive oxygen species metabolic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "organic substance catabolic process",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "transport",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "biological_process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "nitric oxide transport",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "localization",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "establishment of localization",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "nitrogen compound transport",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "transport",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "biological_process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "gas transport",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "oxygen transport",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "localization",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "establishment of localization",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "response to reactive oxygen species",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "response to stress",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "response to oxidative stress",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "biological_process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "response to organic substance",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "response to inorganic substance",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "response to chemical",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "response to hydrogen peroxide",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "response to stimulus",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "response to oxygen-containing compound",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "InterPro",
+                            "annotation_lineage": [
+                                {
+                                    "name": "Globin",
+                                    "depth": 1
+                                }
+                            ]
+                        },
+                        {
+                            "type": "InterPro",
+                            "annotation_lineage": [
+                                {
+                                    "name": "Globin-like superfamily",
+                                    "depth": 1
+                                }
+                            ]
+                        },
+                        {
+                            "type": "InterPro",
+                            "annotation_lineage": [
+                                {
+                                    "name": "Globin/Protoglobin",
+                                    "depth": 1
+                                }
+                            ]
+                        },
+                        {
+                            "type": "InterPro",
+                            "annotation_lineage": [
+                                {
+                                    "name": "Hemoglobin, alpha-type",
+                                    "depth": 1
+                                }
+                            ]
+                        },
+                        {
+                            "type": "InterPro",
+                            "annotation_lineage": [
+                                {
+                                    "name": "Hemoglobin, alpha-type",
+                                    "depth": 1
+                                },
+                                {
+                                    "name": "Hemoglobin, pi",
+                                    "depth": 2
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GlyGen",
+                            "annotation_lineage": null
+                        }
+                    ],
+                    "rcsb_polymer_entity_group_membership": [
+                        {
+                            "group_id": "47_70",
+                            "similarity_cutoff": 70.0,
+                            "aggregation_method": "sequence_identity"
+                        },
+                        {
+                            "group_id": "105_90",
+                            "similarity_cutoff": 90.0,
+                            "aggregation_method": "sequence_identity"
+                        },
+                        {
+                            "group_id": "P69905",
+                            "similarity_cutoff": null,
+                            "aggregation_method": "matching_uniprot_accession"
+                        },
+                        {
+                            "group_id": "20_50",
+                            "similarity_cutoff": 50.0,
+                            "aggregation_method": "sequence_identity"
+                        },
+                        {
+                            "group_id": "32_30",
+                            "similarity_cutoff": 30.0,
+                            "aggregation_method": "sequence_identity"
+                        },
+                        {
+                            "group_id": "105_100",
+                            "similarity_cutoff": 100.0,
+                            "aggregation_method": "sequence_identity"
+                        },
+                        {
+                            "group_id": "111_95",
+                            "similarity_cutoff": 95.0,
+                            "aggregation_method": "sequence_identity"
+                        }
+                    ],
+                    "entity_poly": {
+                        "type": "polypeptide(L)",
+                        "rcsb_entity_polymer_type": "Protein",
+                        "pdbx_seq_one_letter_code_can": "VLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHFDLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSHCLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR",
+                        "rcsb_sample_sequence_length": 141,
+                        "rcsb_mutation_count": 0
+                    },
+                    "rcsb_entity_source_organism": [
+                        {
+                            "scientific_name": "Homo sapiens",
+                            "ncbi_scientific_name": "Homo sapiens",
+                            "rcsb_gene_name": [
+                                {
+                                    "value": "HBA1",
+                                    "provenance_source": "Primary Data"
+                                },
+                                {
+                                    "value": "HBA2",
+                                    "provenance_source": "Primary Data"
+                                },
+                                {
+                                    "value": "HBA1",
+                                    "provenance_source": "UniProt"
+                                },
+                                {
+                                    "value": "HBA2",
+                                    "provenance_source": "UniProt"
+                                }
+                            ]
+                        }
+                    ],
+                    "rcsb_entity_host_organism": [
+                        {
+                            "ncbi_scientific_name": null
+                        }
+                    ],
+                    "prd": null,
+                    "chem_comp_nstd_monomers": null
+                },
+                {
+                    "polymer_entity_instances": [
+                        {
+                            "rcsb_polymer_entity_instance_container_identifiers": {
+                                "auth_asym_id": "B",
+                                "asym_id": "B",
+                                "entry_id": "4HHB",
+                                "entity_id": "2"
+                            }
+                        },
+                        {
+                            "rcsb_polymer_entity_instance_container_identifiers": {
+                                "auth_asym_id": "D",
+                                "asym_id": "D",
+                                "entry_id": "4HHB",
+                                "entity_id": "2"
+                            }
+                        }
+                    ],
+                    "rcsb_polymer_entity_container_identifiers": {
+                        "entry_id": "4HHB",
+                        "entity_id": "2",
+                        "asym_ids": [
+                            "B",
+                            "D"
+                        ],
+                        "auth_asym_ids": [
+                            "B",
+                            "D"
+                        ],
+                        "uniprot_ids": [
+                            "P68871"
+                        ],
+                        "reference_sequence_identifiers": [
+                            {
+                                "database_accession": "P68871"
+                            }
+                        ]
+                    },
+                    "uniprots": [
+                        {
+                            "rcsb_id": "P68871",
+                            "rcsb_uniprot_protein": {
+                                "source_organism": {
+                                    "scientific_name": "Homo sapiens"
+                                }
+                            },
+                            "rcsb_uniprot_external_reference": [
+                                {
+                                    "reference_name": "PHAROS",
+                                    "reference_id": "P68871"
+                                }
+                            ]
+                        }
+                    ],
+                    "rcsb_polymer_entity": {
+                        "pdbx_description": "Hemoglobin subunit beta",
+                        "rcsb_ec_lineage": null,
+                        "pdbx_ec": null,
+                        "rcsb_enzyme_class_combined": null
+                    },
+                    "rcsb_polymer_entity_annotation": [
+                        {
+                            "type": "Pfam",
+                            "annotation_lineage": null
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "cellular_component",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "extracellular region",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "extracellular space",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "blood microparticle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular anatomical entity",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "cellular_component",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "intracellular anatomical structure",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cytoplasm",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cytosol",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular anatomical entity",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "cellular_component",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "intracellular anatomical structure",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cytoplasm",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "endocytic vesicle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cytoplasmic vesicle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "membrane-enclosed lumen",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "vesicle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "organelle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "membrane-bounded organelle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "intracellular organelle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "intracellular membrane-bounded organelle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "organelle lumen",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "intracellular organelle lumen",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "endocytic vesicle lumen",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "intracellular vesicle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular anatomical entity",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "cellular_component",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "extracellular region",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "extracellular space",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "vesicle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "organelle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "membrane-bounded organelle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "extracellular organelle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "extracellular membrane-bounded organelle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "extracellular exosome",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular anatomical entity",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "extracellular vesicle",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "cellular_component",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "extracellular region",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular anatomical entity",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "cellular_component",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "extracellular region",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "extracellular space",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular anatomical entity",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "cellular_component",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "intracellular anatomical structure",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cytoplasm",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "endomembrane system",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "secretory granule",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cytoplasmic vesicle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "membrane-enclosed lumen",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "vesicle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "organelle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "membrane-bounded organelle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "intracellular organelle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "intracellular membrane-bounded organelle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "organelle lumen",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "intracellular organelle lumen",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "intracellular vesicle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "secretory vesicle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "ficolin-1-rich granule",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular anatomical entity",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "ficolin-1-rich granule lumen",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "cellular_component",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "haptoglobin-hemoglobin complex",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "protein-containing complex",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "cellular_component",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "intracellular anatomical structure",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cytoplasm",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cytosol",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "hemoglobin complex",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "protein-containing complex",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular anatomical entity",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "cellular_component",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "intracellular anatomical structure",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cytoplasm",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "endomembrane system",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "secretory granule",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cytoplasmic vesicle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "membrane-enclosed lumen",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "vesicle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "organelle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "membrane-bounded organelle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "intracellular organelle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "intracellular membrane-bounded organelle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "organelle lumen",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "intracellular organelle lumen",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "tertiary granule",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "intracellular vesicle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "secretory vesicle",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular anatomical entity",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "tertiary granule lumen",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "molecular_function",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "binding",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "heme binding",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "tetrapyrrole binding",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "organic cyclic compound binding",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "heterocyclic compound binding",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "molecular_function",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "binding",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "protein binding",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "hemoglobin binding",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "hemoglobin alpha binding",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "molecular_function",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "binding",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "protein binding",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "hemoglobin binding",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "molecular_function",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "binding",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "ion binding",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cation binding",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "metal ion binding",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "molecular_function",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "binding",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "small molecule binding",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "organic acid binding",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "molecular_function",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "binding",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "oxygen binding",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "small molecule binding",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "molecular_function",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "oxygen carrier activity",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "molecular carrier activity",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "transport",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "biological_process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "gas transport",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "carbon dioxide transport",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "one-carbon compound transport",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "localization",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "establishment of localization",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "organic substance transport",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "biological_process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "response to toxic substance",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "response to chemical",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "response to stimulus",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular response to stimulus",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular response to chemical stimulus",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular response to toxic substance",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "detoxification",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular oxidant detoxification",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular detoxification",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "biological_process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "metabolic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "catabolic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "hydrogen peroxide metabolic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "hydrogen peroxide catabolic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular metabolic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular catabolic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "organic substance metabolic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "reactive oxygen species metabolic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "organic substance catabolic process",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "transport",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "biological_process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "nitric oxide transport",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "localization",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "establishment of localization",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "nitrogen compound transport",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "transport",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "biological_process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "gas transport",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "oxygen transport",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "localization",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "establishment of localization",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "cell activation",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "response to stress",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cell adhesion",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "blood coagulation",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "hemostasis",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "biological_process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "response to wounding",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "platelet activation",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "multicellular organismal process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "homotypic cell-cell adhesion",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "wound healing",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "coagulation",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "regulation of body fluid levels",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "response to stimulus",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "biological regulation",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "regulation of biological quality",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "platelet aggregation",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cell-cell adhesion",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "nitrogen compound metabolic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "nitric oxide biosynthetic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "biological_process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "metabolic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "biosynthetic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "regulation of biosynthetic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "positive regulation of biosynthetic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "positive regulation of metabolic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "regulation of metabolic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "regulation of cellular metabolic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "positive regulation of cellular metabolic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "regulation of cellular biosynthetic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "positive regulation of cellular biosynthetic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular nitrogen compound metabolic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular metabolic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular biosynthetic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "cellular nitrogen compound biosynthetic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "regulation of nitric oxide biosynthetic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "positive regulation of nitric oxide biosynthetic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "nitric oxide metabolic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "positive regulation of biological process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "positive regulation of cellular process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "regulation of biological process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "regulation of cellular process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "regulation of nitrogen compound metabolic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "positive regulation of nitrogen compound metabolic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "biological regulation",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "regulation of nitric oxide metabolic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "positive regulation of nitric oxide metabolic process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "reactive nitrogen species metabolic process",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "system process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "circulatory system process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "blood circulation",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "biological_process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "regulation of blood pressure",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "multicellular organismal process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "biological regulation",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "regulation of biological quality",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "system process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "renal system process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "biological_process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "multicellular organismal process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "renal absorption",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GO",
+                            "annotation_lineage": [
+                                {
+                                    "name": "response to reactive oxygen species",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "response to stress",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "response to oxidative stress",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "biological_process",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "response to organic substance",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "response to inorganic substance",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "response to chemical",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "response to hydrogen peroxide",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "response to stimulus",
+                                    "depth": null
+                                },
+                                {
+                                    "name": "response to oxygen-containing compound",
+                                    "depth": null
+                                }
+                            ]
+                        },
+                        {
+                            "type": "InterPro",
+                            "annotation_lineage": [
+                                {
+                                    "name": "Globin",
+                                    "depth": 1
+                                }
+                            ]
+                        },
+                        {
+                            "type": "InterPro",
+                            "annotation_lineage": [
+                                {
+                                    "name": "Globin-like superfamily",
+                                    "depth": 1
+                                }
+                            ]
+                        },
+                        {
+                            "type": "InterPro",
+                            "annotation_lineage": [
+                                {
+                                    "name": "Globin/Protoglobin",
+                                    "depth": 1
+                                }
+                            ]
+                        },
+                        {
+                            "type": "InterPro",
+                            "annotation_lineage": [
+                                {
+                                    "name": "Hemoglobin, beta-type",
+                                    "depth": 1
+                                }
+                            ]
+                        },
+                        {
+                            "type": "GlyGen",
+                            "annotation_lineage": null
+                        }
+                    ],
+                    "rcsb_polymer_entity_group_membership": [
+                        {
+                            "group_id": "108_95",
+                            "similarity_cutoff": 95.0,
+                            "aggregation_method": "sequence_identity"
+                        },
+                        {
+                            "group_id": "79_90",
+                            "similarity_cutoff": 90.0,
+                            "aggregation_method": "sequence_identity"
+                        },
+                        {
+                            "group_id": "24_70",
+                            "similarity_cutoff": 70.0,
+                            "aggregation_method": "sequence_identity"
+                        },
+                        {
+                            "group_id": "20_50",
+                            "similarity_cutoff": 50.0,
+                            "aggregation_method": "sequence_identity"
+                        },
+                        {
+                            "group_id": "154_100",
+                            "similarity_cutoff": 100.0,
+                            "aggregation_method": "sequence_identity"
+                        },
+                        {
+                            "group_id": "32_30",
+                            "similarity_cutoff": 30.0,
+                            "aggregation_method": "sequence_identity"
+                        },
+                        {
+                            "group_id": "P68871",
+                            "similarity_cutoff": null,
+                            "aggregation_method": "matching_uniprot_accession"
+                        }
+                    ],
+                    "entity_poly": {
+                        "type": "polypeptide(L)",
+                        "rcsb_entity_polymer_type": "Protein",
+                        "pdbx_seq_one_letter_code_can": "VHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFESFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPENFRLLGNVLVCVLAHHFGKEFTPPVQAAYQKVVAGVANALAHKYH",
+                        "rcsb_sample_sequence_length": 146,
+                        "rcsb_mutation_count": 0
+                    },
+                    "rcsb_entity_source_organism": [
+                        {
+                            "scientific_name": "Homo sapiens",
+                            "ncbi_scientific_name": "Homo sapiens",
+                            "rcsb_gene_name": [
+                                {
+                                    "value": "HBB",
+                                    "provenance_source": "Primary Data"
+                                },
+                                {
+                                    "value": "HBB",
+                                    "provenance_source": "UniProt"
+                                }
+                            ]
+                        }
+                    ],
+                    "rcsb_entity_host_organism": [
+                        {
+                            "ncbi_scientific_name": null
+                        }
+                    ],
+                    "prd": null,
+                    "chem_comp_nstd_monomers": null
+                }
+            ],
+            "nonpolymer_entities": [
+                {
+                    "rcsb_nonpolymer_entity_container_identifiers": {
+                        "entry_id": "4HHB",
+                        "entity_id": "3",
+                        "auth_asym_ids": [
+                            "A",
+                            "B",
+                            "C",
+                            "D"
+                        ],
+                        "asym_ids": [
+                            "E",
+                            "G",
+                            "H",
+                            "J"
+                        ],
+                        "nonpolymer_comp_id": "HEM"
+                    },
+                    "rcsb_nonpolymer_entity_annotation": null,
+                    "nonpolymer_entity_instances": [
+                        {
+                            "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                                "auth_seq_id": "142",
+                                "auth_asym_id": "A",
+                                "asym_id": "E",
+                                "entry_id": "4HHB",
+                                "entity_id": "3"
+                            },
+                            "rcsb_nonpolymer_instance_validation_score": [
+                                {
+                                    "ranking_model_fit": null,
+                                    "ranking_model_geometry": 1.0E-4,
+                                    "average_occupancy": 1.0,
+                                    "is_subject_of_investigation": "Y",
+                                    "is_subject_of_investigation_provenance": "RCSB"
+                                }
+                            ]
+                        },
+                        {
+                            "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                                "auth_seq_id": "148",
+                                "auth_asym_id": "B",
+                                "asym_id": "G",
+                                "entry_id": "4HHB",
+                                "entity_id": "3"
+                            },
+                            "rcsb_nonpolymer_instance_validation_score": [
+                                {
+                                    "ranking_model_fit": null,
+                                    "ranking_model_geometry": 3.0E-4,
+                                    "average_occupancy": 1.0,
+                                    "is_subject_of_investigation": "Y",
+                                    "is_subject_of_investigation_provenance": "RCSB"
+                                }
+                            ]
+                        },
+                        {
+                            "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                                "auth_seq_id": "142",
+                                "auth_asym_id": "C",
+                                "asym_id": "H",
+                                "entry_id": "4HHB",
+                                "entity_id": "3"
+                            },
+                            "rcsb_nonpolymer_instance_validation_score": [
+                                {
+                                    "ranking_model_fit": null,
+                                    "ranking_model_geometry": 3.0E-4,
+                                    "average_occupancy": 1.0,
+                                    "is_subject_of_investigation": "Y",
+                                    "is_subject_of_investigation_provenance": "RCSB"
+                                }
+                            ]
+                        },
+                        {
+                            "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                                "auth_seq_id": "148",
+                                "auth_asym_id": "D",
+                                "asym_id": "J",
+                                "entry_id": "4HHB",
+                                "entity_id": "3"
+                            },
+                            "rcsb_nonpolymer_instance_validation_score": [
+                                {
+                                    "ranking_model_fit": null,
+                                    "ranking_model_geometry": 1.0E-4,
+                                    "average_occupancy": 1.0,
+                                    "is_subject_of_investigation": "Y",
+                                    "is_subject_of_investigation_provenance": "RCSB"
+                                }
+                            ]
+                        }
+                    ],
+                    "rcsb_nonpolymer_entity": {
+                        "pdbx_description": "PROTOPORPHYRIN IX CONTAINING FE"
+                    },
+                    "nonpolymer_comp": {
+                        "chem_comp": {
+                            "id": "HEM",
+                            "formula_weight": 616.487,
+                            "name": "PROTOPORPHYRIN IX CONTAINING FE",
+                            "formula": "C34 H32 Fe N4 O4"
+                        },
+                        "pdbx_reference_molecule": null,
+                        "rcsb_chem_comp_descriptor": {
+                            "InChIKey": "KABFMIBPWCXCRK-RGGAHWMASA-L"
+                        }
+                    }
+                },
+                {
+                    "rcsb_nonpolymer_entity_container_identifiers": {
+                        "entry_id": "4HHB",
+                        "entity_id": "4",
+                        "auth_asym_ids": [
+                            "B",
+                            "D"
+                        ],
+                        "asym_ids": [
+                            "F",
+                            "I"
+                        ],
+                        "nonpolymer_comp_id": "PO4"
+                    },
+                    "rcsb_nonpolymer_entity_annotation": null,
+                    "nonpolymer_entity_instances": [
+                        {
+                            "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                                "auth_seq_id": "147",
+                                "auth_asym_id": "B",
+                                "asym_id": "F",
+                                "entry_id": "4HHB",
+                                "entity_id": "4"
+                            },
+                            "rcsb_nonpolymer_instance_validation_score": [
+                                {
+                                    "ranking_model_fit": null,
+                                    "ranking_model_geometry": null,
+                                    "average_occupancy": 0.2,
+                                    "is_subject_of_investigation": "N",
+                                    "is_subject_of_investigation_provenance": null
+                                }
+                            ]
+                        },
+                        {
+                            "rcsb_nonpolymer_entity_instance_container_identifiers": {
+                                "auth_seq_id": "147",
+                                "auth_asym_id": "D",
+                                "asym_id": "I",
+                                "entry_id": "4HHB",
+                                "entity_id": "4"
+                            },
+                            "rcsb_nonpolymer_instance_validation_score": [
+                                {
+                                    "ranking_model_fit": null,
+                                    "ranking_model_geometry": null,
+                                    "average_occupancy": 0.2,
+                                    "is_subject_of_investigation": "N",
+                                    "is_subject_of_investigation_provenance": null
+                                }
+                            ]
+                        }
+                    ],
+                    "rcsb_nonpolymer_entity": {
+                        "pdbx_description": "PHOSPHATE ION"
+                    },
+                    "nonpolymer_comp": {
+                        "chem_comp": {
+                            "id": "PO4",
+                            "formula_weight": 94.971,
+                            "name": "PHOSPHATE ION",
+                            "formula": "O4 P"
+                        },
+                        "pdbx_reference_molecule": null,
+                        "rcsb_chem_comp_descriptor": {
+                            "InChIKey": "NBIIXXVUZAFLBC-UHFFFAOYSA-K"
+                        }
+                    }
+                }
+            ],
+            "assemblies": [
+                {
+                    "rcsb_assembly_container_identifiers": {
+                        "assembly_id": "1"
+                    },
+                    "pdbx_struct_assembly": {
+                        "rcsb_details": "author_and_software_defined_assembly",
+                        "method_details": "PISA",
+                        "rcsb_candidate_assembly": "Y"
+                    },
+                    "pdbx_struct_assembly_auth_evidence": null,
+                    "rcsb_struct_symmetry": [
+                        {
+                            "kind": "Global Symmetry",
+                            "type": "Cyclic",
+                            "symbol": "C2",
+                            "oligomeric_state": "Hetero 4-mer",
+                            "stoichiometry": [
+                                "A2",
+                                "B2"
+                            ]
+                        },
+                        {
+                            "kind": "Pseudo Symmetry",
+                            "type": "Dihedral",
+                            "symbol": "D2",
+                            "oligomeric_state": "Homo 4-mer",
+                            "stoichiometry": [
+                                "A4"
+                            ]
+                        }
+                    ],
+                    "rcsb_assembly_info": {
+                        "modeled_polymer_monomer_count": 574
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,3 @@
+#Category	Uniprot	Version	Organism	pLDDT_knotcore	Protein_name	Knot_probability	Knotcore_range	Knotcore_length	#FILTER: Uniprot=A0A5C8L0Y6;
+AF4	A0A5C8L0Y6-F1	4	Lysobacter sp	98.8	N-acetylornithine carbamoyltransferase (EC 2.1.3.9) (N-acetyl-L-ornithine transcarbamylase) (AOTCase) (Acetylornithine transcarbamylase)	0.71	170-252	82
+ESM1	A0A5C8L0Y6-F1	-1	Lysobacter sp	88.5	N-acetylornithine carbamoyltransferase (EC 2.1.3.9) (N-acetyl-L-ornithine transcarbamylase) (AOTCase) (Acetylornithine transcarbamylase)	0.678	170-251	81
