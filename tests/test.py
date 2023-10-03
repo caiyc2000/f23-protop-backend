@@ -3,10 +3,17 @@ from unittest.mock import patch, Mock
 from backend import aggregate_responses, call_apis
 import json
 
-MOCKED_ALPHAKNOT_RESPONSE = json.load(open('./tests/knotprot_response.json'))
-MOCKED_PDB_RESPONSE = json.load(open('./tests/pdb_response.json'))
-MOCKED_UNIPROT_RESPONSE = json.load(open('./tests/uniprot_response.json'))
-MOCKED_KNOTPROT_RESPONSE = json.load(open('./tests/knotprot_response.json'))
+with open('./testData/alphaknot.txt', 'r') as a, \
+     open('./testData/pdb.json', 'r') as b, \
+     open('./testData/uniprot.json', 'r') as c, \
+     open('./testData/knotprot.json', 'r') as d:
+    
+    MOCKED_ALPHAKNOT_RESPONSE = a.read()
+    MOCKED_PDB_RESPONSE = json.load(b)
+    MOCKED_UNIPROT_RESPONSE = json.load(c)
+    MOCKED_KNOTPROT_RESPONSE = json.load(d)
+
+MOCK_PDBID = '1A2B'
 
 class TestAggregation(unittest.TestCase):
 
@@ -23,15 +30,15 @@ class TestAggregation(unittest.TestCase):
         mock_pdb.return_value = MOCKED_PDB_RESPONSE
         mock_uniprot.return_value = MOCKED_UNIPROT_RESPONSE
         mock_knotprot.return_value = MOCKED_KNOTPROT_RESPONSE
-
-        aggregated = aggregate_responses()
+        
+        aggregated = aggregate_responses(MOCK_PDBID)
 
         # Sample assertions based on your aggregation logic
         self.assertIn("uniprot", aggregated)
-        self.assertIn("uniprotID", aggregated["uniprot"])
-        self.assertEqual(aggregated["data"]["knotprot"], "sample_knotprot_data")
-        self.assertEqual(aggregated["data"]["pdb"], "sample_pdb_data")
-        self.assertEqual(aggregated["data"]["uniprot"], "sample_uniprot_data")
+        self.assertIn("uniprotID", aggregated)
+        self.assertEqual(aggregated["knotprot"], "sample_knotprot_data")
+        self.assertEqual(aggregated["pdb"], "sample_pdb_data")
+        self.assertEqual(aggregated["uniprot"], "sample_uniprot_data")
 
 class TestIntegration(unittest.TestCase):
 
@@ -41,7 +48,7 @@ class TestIntegration(unittest.TestCase):
         """
         
         responses = call_apis()
-
+        
         # Sample assertions based on expected responses
         self.assertIn("data", responses)
         self.assertIsInstance(responses["data"]["knotprot"], dict)
@@ -49,6 +56,6 @@ class TestIntegration(unittest.TestCase):
         self.assertIsInstance(responses["data"]["uniprot"], dict)
         # Asserting that the pdb id matches expected pdb id
         self.assertEqual(responses["data"]["pdb"]["pdb_id"], "EXPECTED_PDB_ID")
-
+        
 if __name__ == '__main__':
     unittest.main()
