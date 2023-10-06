@@ -1,11 +1,11 @@
 import unittest
 from unittest.mock import patch, Mock
-from config import ROOTDIR
-from tests.backend import aggregate_responses, call_apis
+from backend import aggregate_responses, call_apis
 import json
 import os
 
-TESTDATA_DIR = os.path.join(ROOTDIR, 'tests', 'testData')
+TESTS_DIR = os.path.dirname(__file__)
+TESTDATA_DIR = os.path.join(TESTS_DIR, 'testData')
 
 with open(os.path.join(TESTDATA_DIR, 'alphaknot.txt'), 'r') as a, \
      open(os.path.join(TESTDATA_DIR,'pdb.json'), 'r') as b, \
