@@ -25,12 +25,10 @@ jobs:
         python-version: "3.11"
     # - name: Lint with flake8
     #   uses: py-actions/flake8@v2
-    - name: Install pipenv
-      run: pip install pipenv
-    - name: Install dependencies
+    - name: Install pipenv and dependencies
       run: |
+        pip install pipenv
         pipenv install --dev
-        pipenv shell
     - name: Test with pytest
       run: |
-        python -m pytest
+        pipenv run pytest
