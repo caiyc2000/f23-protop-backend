@@ -1,12 +1,16 @@
 import unittest
 from unittest.mock import patch, Mock
+from config import ROOTDIR
 from tests.backend import aggregate_responses, call_apis
 import json
+import os
 
-with open('./testData/alphaknot.txt', 'r') as a, \
-     open('./testData/pdb.json', 'r') as b, \
-     open('./testData/uniprot.json', 'r') as c, \
-     open('./testData/knotprot.json', 'r') as d:
+TESTDATA_DIR = os.path.join(ROOTDIR, 'tests', 'testData')
+
+with open(os.path.join(TESTDATA_DIR, 'alphaknot.txt'), 'r') as a, \
+     open(os.path.join(TESTDATA_DIR,'pdb.json'), 'r') as b, \
+     open(os.path.join(TESTDATA_DIR, 'uniprot.json'), 'r') as c, \
+     open(os.path.join(TESTDATA_DIR, 'knotprot.json'), 'r') as d:
     
     MOCKED_ALPHAKNOT_RESPONSE = a.read()
     MOCKED_PDB_RESPONSE = json.load(b)
