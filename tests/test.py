@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import patch, Mock
-from backend import aggregate_responses, call_apis
+from tests.backend import aggregate_responses, call_apis
 import json
 
 with open('./testData/alphaknot.txt', 'r') as a, \
