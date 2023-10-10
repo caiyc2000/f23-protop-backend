@@ -11,7 +11,7 @@ def get_aggregated(pdb_id):
             'error': f'Please check your PDB ID: {pdb_results["error"]}'
         }
 
-    uniprot_results = get_uniprot(pdb_results['uniprot_id'])
+    uniprot_results = [get_uniprot(entity['uniprot_id']) for entity in pdb_results.get('entity')]
     knotprot_results = get_knotprot(pdb_id)
     alphaknot_results = get_alphaknot(pdb_id)
 
