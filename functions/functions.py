@@ -59,7 +59,8 @@ def get_pdb(pdb_id: str) -> dict:
         mutations = entity['entity_poly']['rcsb_mutation_count']
         primary_data_genes = [gene.get('value') for gene in entity['rcsb_entity_source_organism'][0]['rcsb_gene_name'] if gene.get('provenance_source') == "Primary Data"]
         uniprot_genes = [gene.get('value') for gene in entity['rcsb_entity_source_organism'][0]['rcsb_gene_name'] if gene.get('provenance_source') == "Uniprot"]
-        
+        uniprot_ids = entity['rcsb_polymer_entity_container_identifiers']['uniprot_ids']
+
         entities.append({
         'molecule': molecule,
         'chains': chains,
@@ -68,7 +69,8 @@ def get_pdb(pdb_id: str) -> dict:
         'organism': organism,
         'mutations': mutations,
         'primary_data_genes': primary_data_genes,
-        'uniprot_genes': uniprot_genes
+        'uniprot_genes': uniprot_genes,
+        'uniprot_ids': uniprot_ids,
         })
 
     return {
@@ -87,7 +89,6 @@ def get_pdb(pdb_id: str) -> dict:
         'rvalue': rvalue,
         'entities': entities
     }
-
 
 
 def get_uniprot(uniprot_id: str) -> dict:
