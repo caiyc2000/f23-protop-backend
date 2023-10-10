@@ -5,6 +5,12 @@ import os
 
 def get_aggregated(pdb_id):
     pdb_results = get_pdb(pdb_id)
+    
+    if pdb_results.get('error'):
+        return {
+            'error': f'Please check your PDB ID: {pdb_results["error"]}'
+        }
+
     uniprot_results = get_uniprot(pdb_results['uniprot_id'])
     knotprot_results = get_knotprot(pdb_id)
     alphaknot_results = get_alphaknot(pdb_id)
@@ -28,9 +34,8 @@ def get_pdb(pdb_id: str) -> dict:
     response = requests.post('https://data.rcsb.org/graphql', json={'query': query, 'variables': json.dumps(variables)})
 
     if response.status_code != 200:
-        print(f'Request failed with status code {response.status_code}')
-        return
-    
+        return {'error': f'Request failed with status code {response.status_code}'}
+        
     entry = response.json()['data']['entry']
 
     id = entry['rcsb_id']
