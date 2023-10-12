@@ -2,6 +2,7 @@ import json
 import requests
 from config import ROOTDIR
 import os
+import itertools
 
 def get_aggregated(pdb_id):
     pdb_results = get_pdb(pdb_id)
@@ -118,8 +119,41 @@ def get_uniprot(uniprot_id: str) -> dict:
     sequence = response['sequence']['value']
     length = response['sequence']['length']
     organism = response['organism']['scientificName']
-    diseases = [entry["disease"]["diseaseId"] for entry in response["comments"] if "disease" in entry]
+    diseases = [
+        {
+            'diseaseId': entry["disease"]["diseaseId"],
+            'xRef': entry["disease"]["diseaseCrossReference"],
+        } for entry in response["comments"] if "disease" in entry]
+
     #variants #Getting this is challenging, as the response does not show the natural variants under each disease involvement, instead, it shows all natural variants in "feature" list. Some natural variants in this list have no pathological significance.
+
+    # Need to use the variants api for this
+    variants_api = f"https://www.ebi.ac.uk/proteins/api/variation?offset=0&size=100&accession={uniprot_id}"
+
+    # Send a GET request to UniProt Variants API
+    response = requests.get(variants_api)
+
+    if response.status_code != 200:
+        return{"Error": f"{response.status_code} - Unable to retrieve UniProt data"}
+   
+    response = response.json()
+    
+    disease_associated_variants = (feature for feature in response[0]['features'] if feature.get('association'))
+
+    variants_by_disease = {disease.get('diseaseId'): [] for disease in diseases} # Initialize
+    for variant in disease_associated_variants:
+        for disease in diseases:
+            diseaseId = disease['diseaseId']
+            diseaseRef = disease['xRef']
+            for association in variant.get('association'):
+                for associationRef in association.get('dbReferences', []):
+                    if diseaseRef['database'] == associationRef['name'] and diseaseRef['id'] == associationRef['id']:
+                        variants_by_disease[diseaseId].append({
+                            'begin': variant['begin'],
+                            'end': variant['end'],
+                            'wildType': variant['wildType'],
+                            'mutatedType': variant.get('mutatedType')
+                        })
 
     # return as a dictionary
     return {
@@ -130,7 +164,8 @@ def get_uniprot(uniprot_id: str) -> dict:
         'organism': organism,
         'sequence': sequence,
         'length': length,
-        'diseases': diseases
+        'diseases': diseases,
+        'variants': variants_by_disease
     }
 
 def get_knotprot(pdb_id: str) -> dict:

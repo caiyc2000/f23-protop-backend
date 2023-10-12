@@ -1,8 +1,12 @@
 from functions.functions import get_pdb, get_uniprot
 from functions.utils import get_uniprot_from_pdb
+import json
 
-print(get_pdb("4HHB"))
+pdb_dict = get_pdb("4HHB")
+print(json.dumps(pdb_dict, indent=4))
 
-print(get_uniprot_from_pdb(get_pdb("4HHB"), "A"))
+uniprot_dict = get_uniprot_from_pdb(pdb_dict, "A")
+print(json.dumps(uniprot_dict, indent=4))
 
-print(get_uniprot('Q92560'))
+uniprot_info = get_uniprot('Q92560')
+print(json.dumps(uniprot_info, indent=4))
