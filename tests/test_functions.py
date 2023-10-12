@@ -1,4 +1,4 @@
-from functions.functions import get_pdb
+from functions.functions import get_pdb, get_uniprot
 from functions.utils import get_uniprot_from_pdb
 
 print(get_pdb("4HHB"))
