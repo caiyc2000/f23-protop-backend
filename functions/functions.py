@@ -97,7 +97,41 @@ def get_pdb(pdb_id: str) -> dict:
 
 
 def get_uniprot(uniprot_id: str) -> dict:
-    pass
+    
+    # UniProt API URL
+    api_url = f"https://rest.uniprot.org/uniprot/{uniprot_id}.json"
+
+    # Send a GET request to UniProt
+    response = requests.get(api_url)
+
+    # Check the response status
+    if response.status_code != 200:
+        return{"Error": f"{response.status_code} - Unable to retrieve UniProt data"}
+   
+    # Store the response
+    response = response.json()
+
+    # Extract information from the JSON response
+    protein_name = response['proteinDescription']['recommendedName']['fullName']['value']
+    gene_name= response['genes'][0]["geneName"]["value"]
+    ec = [keyword.get("name") for keyword in response["keywords"] if keyword.get("id") == "KW-0378"]
+    sequence = response['sequence']['value']
+    length = response['sequence']['length']
+    organism = response['organism']['scientificName']
+    diseases = [entry["disease"]["diseaseId"] for entry in response["comments"] if "disease" in entry]
+    #variants #Getting this is challenging, as the response does not show the natural variants under each disease involvement, instead, it shows all natural variants in "feature" list. Some natural variants in this list have no pathological significance.
+
+    # return as a dictionary
+    return {
+        'id': uniprot_id,
+        'protein': protein_name,
+        'gene': gene_name,
+        'emzyme_classification': ec,
+        'organism': organism,
+        'sequence': sequence,
+        'length': length,
+        'diseases': diseases
+    }
 
 def get_knotprot(pdb_id: str) -> dict:
     pass
