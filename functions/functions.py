@@ -8,11 +8,9 @@ def get_aggregated(pdb_id):
     pdb_results = get_pdb(pdb_id)
     
     if pdb_results.get('error'):
-        return {
-            'error': f'Please check your PDB ID: {pdb_results["error"]}'
-        }
+        return {'error': f'Please check your PDB ID: {pdb_results["error"]}'}
 
-    uniprot_results = [get_uniprot(entity['uniprot_id']) for entity in pdb_results.get('entity')]
+    uniprot_results = [get_uniprot(uniprot_id) for entity in pdb_results.get('entities') for uniprot_id in entity.get('uniprot_ids')]
     knotprot_results = get_knotprot(pdb_id)
     alphaknot_results = get_alphaknot(pdb_id)
 
@@ -42,7 +40,7 @@ def get_pdb(pdb_id: str) -> dict:
     id = entry['rcsb_id']
     desc = entry['struct']['title']
     prim_doi = entry['rcsb_primary_citation']['pdbx_database_id_DOI']
-    supersedes = [x.get('replace_pdb_id') for x in entry['pdbx_database_PDB_obs_spr']]
+    supersedes = [x.get('replace_pdb_id') for x in entry['pdbx_database_PDB_obs_spr']] if entry['pdbx_database_PDB_obs_spr'] else []
     keywords = entry['struct_keywords']['pdbx_keywords']
     organisms = list(set([organism['scientific_name'] for entity in entry['polymer_entities'] for organism in entity['rcsb_entity_source_organism']]))
     mutations = sum([entity['entity_poly']['rcsb_mutation_count'] for entity in entry['polymer_entities']])
