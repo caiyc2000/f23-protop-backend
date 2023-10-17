@@ -158,7 +158,7 @@ def get_uniprot(uniprot_id: str) -> dict:
         'id': uniprot_id,
         'protein': protein_name,
         'gene': gene_name,
-        'emzyme_classification': ec,
+        'enzyme_classification': ec,
         'organism': organism,
         'sequence': sequence,
         'length': length,
